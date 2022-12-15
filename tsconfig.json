@@ -18,14 +18,8 @@
     "paths": {
       "@/*": ["src/*"]
     },
-    "typeRoots": ["./types"],
-    "types": ["node"]
+    "typeRoots": ["./types"]
   },
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.d.ts",
-    "src/**/*.tsx",
-    "types/**/*.d.ts",
-    "types/**/*.ts"
-  ]
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "types/**/*.d.ts", "types/**/*.ts"],
+  "exclude": ["dist"]
 }
