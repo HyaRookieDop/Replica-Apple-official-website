@@ -7,6 +7,7 @@ export default defineConfig({
   resolve: {
     alias: [
       { find: '@', replacement: resolve(__dirname, 'src') },
+      { find: '~fonts', replacement: resolve(__dirname, 'src/assets/fonts') },
       { find: '~bootstrap', replacement: resolve(__dirname, 'node_modules/bootstrap') },
     ],
   },

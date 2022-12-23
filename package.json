@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/HyaRookieDop/website-template#readme",
   "dependencies": {
-    "bootstrap": "^5.2.3"
   },
   "devDependencies": {
     "@types/bootstrap": "^5.2.6",
